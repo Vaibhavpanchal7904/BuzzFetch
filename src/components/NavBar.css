@@ -1,0 +1,49 @@
+/* Style the brand name */
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffc107 !important;
+  letter-spacing: 1px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #ffffff !important;
+}
+
+/* Style nav links */
+.nav-link {
+  color: #dddddd !important;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+/* Hover effect on nav links */
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff !important;
+}
+
+/* Active link styling */
+.nav-link.active,
+.nav-link[aria-current="page"] {
+  color: #ffc107 !important;
+  border-bottom: 2px solid #ffc107;
+}
+
+/* Navbar container */
+.navbar {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .nav-link {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}
